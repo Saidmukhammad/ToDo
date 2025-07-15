@@ -1,0 +1,82 @@
+.notes {
+    margin-top: 30px;
+}
+
+.notes__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notes__title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 127%;
+    color: #323232;
+}
+
+.notes__btn {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+    background: #EEE8F4;
+    border-radius: 16px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: #6750a4;
+}
+
+.card {
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    background: #F7F2F9;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.card__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.card__date {
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #cac4d0;
+}
+
+.card__desc {
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #49454f;
+    margin: 17px 0;
+}
+
+.card__controls {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.notes__list {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    &.active {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
